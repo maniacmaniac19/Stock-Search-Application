@@ -5,11 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stock Search</title>
+    <link rel="stylesheet" href="./assets/css/foundation.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    
+        <div class="top-bar">
+                <div class="top-bar-left">
+                  <ul class="dropdown menu" data-dropdown-menu>
+                    <li class="menu-text"><h3>Stock Search</h3></li>
+                  </ul>
+                </div>
+                <div class="top-bar-right">
+                  <ul class="menu">
+                    <li><input id = "stock-query" type="search" placeholder="Enter stock symbol..."></li>
+                    <li><button type="button" class="button stockentry">Search</button></li>
+                  </ul>
+                </div>
+              </div>
 
+    </div>
+    <div id = "stocks-view">
+
+    </div>
+<div class="stockinfo card">
+
+</div>
+<div class="stocknews"></div>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="./app.js"></script>
 </body>
-</html>
+</html> 
